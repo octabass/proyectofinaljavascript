@@ -14,10 +14,10 @@ function activarClickQuitarDelCarrito() {
     botonesQuitar.forEach((botonQuitar)=> {
         botonQuitar.addEventListener('click', ()=> {
             let codigo = parseInt(botonQuitar.id)
-            let indice = carritoInstrumentos.findIndex((instrumento)=> instrumento.codigo === codigo) //identificamos el índice de la prenda, en el array
-            carritoInstrumentos.splice(indice, 1) //removemos el objeto del array carrito
-            armarCarrito()                   //rearmamos el HTML con los productos restantes en el carrito
-            guardarCarritoInstrumentos()          //actualizamos localStorage con el carrito modificado.
+            let indice = carritoInstrumentos.findIndex((instrumento)=> instrumento.codigo === codigo) 
+            carritoInstrumentos.splice(indice, 1) 
+            armarCarrito()                  
+            guardarCarritoInstrumentos()         
         })
     })
 }
