@@ -1,0 +1,74 @@
+[
+    {
+        "imagen": "🥁",
+        "codigo": 1,
+        "nombre": "Redoblante",
+        "importe": 5200
+    },
+    {
+        "imagen": "🎤",
+        "codigo": 2,
+        "nombre": "Micrófono",
+        "importe": 1200
+    },
+    {
+        "imagen": "🎷",
+        "codigo": 3,
+        "nombre": "Saxo Tenor",
+        "importe": 5236
+    },
+    {
+        "imagen": "🎹",
+        "codigo": 4,
+        "nombre": "Piano",
+        "importe": 15500
+    },
+    {
+        "imagen": "🎷",
+        "codigo": 5,
+        "nombre": "Saxo Alto",
+        "importe": 9880
+    },
+    {
+        "imagen": "🎺",
+        "codigo": 6,
+        "nombre": "Trompeta",
+        "importe": 8953
+    },
+    {
+        "imagen": "🎻",
+        "codigo": 7,
+        "nombre": "Violín",
+        "importe": 3254
+    },
+    {
+        "imagen": "🎧",
+        "codigo": 8,
+        "nombre": "Auriculares",
+        "importe": 1400
+    },
+    {
+        "imagen": "📯",
+        "codigo": 9,
+        "nombre": "Tuba",
+        "importe": 12569
+    },
+    {
+        "imagen": "🎸",
+        "codigo": 10,
+        "nombre": "Guitarra Eléctrica",
+        "importe": 9634
+    },
+    {
+        "imagen": "🎸",
+        "codigo": 11,
+        "nombre": "Bajo Eléctrico",
+        "importe": 8264
+    },
+    {
+        "imagen": "🪕",
+        "codigo": 12,
+        "nombre": "Banjo",
+        "importe": 6854
+    }
+]
