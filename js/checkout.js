@@ -22,24 +22,6 @@ function activarClickQuitarDelCarrito() {
     })
 }
 
-function calcularTotalCarrito(carrito) {
-    let totalCarrito = carrito.length > 0 ? carrito.reduce((acc, instrumento)=> acc + instrumento.importe, 0)
-                                          : 0.00
-    
-    // let totalCarrito
-    // if (carrito.length > 0) {
-    //     totalCarrito = carrito.reduce((acc, prenda)=> acc + prenda.importe, 0)
-    // } else {
-    //     totalCarrito = 0.00
-    // }
-    return `<tr>
-                <td></td>
-                <td><strong>Total Carrito:</strong></td>
-                <td><strong>$ ${totalCarrito.toLocaleString()}</strong></td>
-                <td></td>
-            </tr>`
-}
-
 function armarCarrito() {
     tableBody.innerHTML = ''
     if (carritoInstrumentos.length > 0) {
